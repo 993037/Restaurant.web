@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <h1> <center>RESERVATION FORM</center></h1>
+    <style>
+         #contact {
+  padding: 5rem 0;
+  background: rgb(226, 226, 226);
+}
+
+.reservation-container {
+  display: flex;
+  background: #fff;
+}
+
+.reservation-img {
+  width: 50%;
+}
+
+.reservation-img img {
+  display: block;
+  height: 400px;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.form-container {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.form-container input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-container textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  color: #444;
+  outline: none;
+  padding: 1rem 0;
+  resize: none;
+}
+
+    </style>
+</head>
+<body>
+<form>
+    <section id="reservation">
+        <div class="reservation-container container">
+            <div class="reservation-img">
+     <img src="https://assets.architecturaldigest.in/photos/600843cb38f32f52a6d9a93d/master/w_1600%2Cc_limit/Coronavirus-food-delivery-restaurants-2-Fine-Dine-and-Brinch-at-home-Marriot-on-wheels.jpg" alt="dine">
+   </div> 
+   <div class="form-container">
+     Enter name: <input type="text" name="txtuser" maxlength="30"/><br> 
+    Dinning Hall <br>
+    AC Hall<input type="radio" name="opt"/>Non AC Hall
+     <input type="radio" name="opt"/>  <br><br>
+    No.of people: <select>
+     <option>2</option>
+     <option>4</option>
+     <option>6</option>
+     <option>more</option>
+</select><br> <br>
+Enter time: <input type="text" name="time"/>
+AM<input type="radio" name="time"/> PM<input type="radio" name="time"/>  <br><br><br><br>
+<input type ="submit" value="submit"/>
+        </div>
+    </div>
+        </section>
+</form>
+</body>
+</html>
